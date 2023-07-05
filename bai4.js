@@ -7,7 +7,6 @@ function nhapDaySo() {
         var so = Number(prompt(`Nhập số thứ ${i + 1}:`));
         daySo.push(so);
     }
-
     return daySo;
 }
 // Hàm tính tổng các số trong dãy

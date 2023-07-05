@@ -5,8 +5,7 @@ function soNguyenTo(a) {
     if (a <= 1) {
         alert('a phải lớn hơn 1');
     } else {
-
-        for (var i = 2; i <= (a - 1); i++) {
+        for (var i = 2; i < a; i++) {
             if (a % i == 0) {
                 isPrime = false;
                 break;
